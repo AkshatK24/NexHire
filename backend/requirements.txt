@@ -2,5 +2,5 @@ Flask
 flask-cors
 python-dotenv
 groq
-PyPDF2
+pdfplumber
 gunicorn
