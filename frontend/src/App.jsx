@@ -130,7 +130,7 @@ function App() {
       setLoading(true);
       setResult(null);
       const response = await axios.post(
-        "http://127.0.0.1:5000/analyze-resume",
+        "https://nexhire-vdii.onrender.com/analyze-resume",
         formData
       );
       setResult(response.data.analysis);
