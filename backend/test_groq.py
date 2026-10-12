@@ -9,7 +9,7 @@ client = Groq(
 )
 
 response = client.chat.completions.create(
-    model="llama-3.3-70b-versatile",
+    model="openai/gpt_oss_120b",
     messages=[
         {
             "role": "user",
