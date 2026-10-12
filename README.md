@@ -46,7 +46,7 @@ NexHire was created with that idea in mind.
 - Flask-CORS
 
 ### AI & Resume Processing
-- Groq API (Llama 3.3 70B)
+- Groq API (openai/gpt-oss-120b)
 - PDFPlumber
 
 ### Deployment
